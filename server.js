@@ -11,6 +11,7 @@ const apiRoutes = require('./routes/apiRoutes');
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+//use ApiRoutes
 app.use('/api', apiRoutes);
 
 // Not Found response for unmatched routes
