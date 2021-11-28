@@ -35,7 +35,7 @@ router.get('/voters/:id', (req, res) => {
     });
   });
 
-  // Create a candidate
+  // Create a voter
 router.post('/voter', ({ body }, res) => {
     const errors = inputCheck(
         body,
